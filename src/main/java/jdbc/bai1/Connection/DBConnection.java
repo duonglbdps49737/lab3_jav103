@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 public class DBConnection {
-    private static final String SERVER   = "localhost";
+    private static final String SERVER   = "localhost/SQLEXPRESS";
     private static final String PORT     = "1433";
     private static final String DATABASE = "lab3_db";
     private static final String USERNAME = "sa";
